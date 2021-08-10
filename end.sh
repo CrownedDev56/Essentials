@@ -5,4 +5,4 @@ read commitmsg
 git commit -m "$commitmsg"
 echo "Enter destination branch"
 read val
-git push origin $val
+git push origin branch_$val
